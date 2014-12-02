@@ -3,6 +3,8 @@
 
 # referenced from mininet Makefile
 
+.PHONY: all tags fmt clean clean-deps test
+
 TARGET = tao
 
 CC = gcc
