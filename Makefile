@@ -40,7 +40,7 @@ $(TARGET) : $(OBJS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(LIBS) 
 
 tags:
-	ctags -h=.c.h.cpp.cc -R
+	ctags *.c
 
 fmt:
 	astyle `find . -name *.c` `find . -name *.h` `find . -name *.cc` -`find . -name *.cpp` nQ
