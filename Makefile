@@ -13,7 +13,7 @@ CFLAGS = -g -Wall
 LIBS = -lm -lpthread
 
 # All your header files
-HDRS = common.h
+HDRS = main.h
 
 # All your src files
 SRCS = main.c
