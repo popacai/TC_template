@@ -2,6 +2,7 @@
 #	taocai@ucsd.edu
 
 # referenced from mininet Makefile
+# referenced from nachos(h8liu) Makefile
 
 .PHONY: all tags fmt clean clean-deps test
 
